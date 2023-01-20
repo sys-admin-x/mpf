@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ -e /Library/LaunchDaemons/com.sysadminx.mpf.plist ]
+then
+	launchctl load /Library/LaunchDaemons/com.sysadminx.mpf.plist
+fi
